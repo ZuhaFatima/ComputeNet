@@ -2,7 +2,8 @@
 ComputeNet is a comprehensive project that integrates a client-server file transfer system with high-performance computing modules. It provides a unified framework to solve computational problems using serial, parallel (OpenMP), and distributed (socket-based) implementations. The project is designed to highlight performance scaling, communication, and efficient resource utilization across machines.
 ***
 
-**1. Client-Server File Sharing**    
+**1. Client-Server File Sharing**  
+  
 _ A simple yet effective TCP-based client-server model.
 
 _ The server maintains a list of files (e.g., .pdf, .docx, .txt) available for download.
