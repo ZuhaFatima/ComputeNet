@@ -13,28 +13,35 @@ _ The client requests and downloads files from the server.
 _ Downloaded files are verified by opening them after the transfer.
 ***
 
-**2. Scientific Computation Modules**
+**2. Scientific Computation Modules**  
+<br>
 Each computational module supports:
 
 _ Serial implementation – For correctness verification.
 
 _ Parallel implementation (OpenMP) – For performance scaling on a single machine.
 
-_ Distributed implementation (Sockets + optional OpenMP) – For computation across multiple machines.
+_ Distributed implementation (Sockets + optional OpenMP) – For computation across multiple machines.  
+<br>
 
-**A. Array Summation**
+**A. Array Summation**  
+<br>
 _ Sums a large 1D array using the three modes.
 
-_ Used to benchmark the overhead and speedup in distributed environments.
+_ Used to benchmark the overhead and speedup in distributed environments.  
+<br>
 
-**B. Matrix Multiplication**
+**B. Matrix Multiplication**  
+<br>
 _ Performs large matrix multiplication.
 
 _ 2D contour plots included to visualize correctness and computational patterns.
 
-_ Shows how distributed systems can handle data beyond single-machine memory limits.
+_ Shows how distributed systems can handle data beyond single-machine memory limits.  
+<br>
 
-**C. 2D Laplace Equation Solver**
+**C. 2D Laplace Equation Solver**  
+<br>
 _ Solves Laplace’s equation on a grid with Dirichlet boundary conditions:
 
 _ Top = 5V, Bottom = -5V, Left & Right = 0V.
