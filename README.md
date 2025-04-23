@@ -51,10 +51,3 @@ _ Simulates the electric potential inside a capacitor.
 _ Includes contour plots to visualize potential distribution.
 
 
-ComputeNet/
-├── ClientServer/       # File sharing system
-├── ArraySum/           # Array summation implementations
-├── MatMul/             # Matrix multiplication implementations
-├── Laplace/            # Laplace solver implementations
-├── Graphs_Visuals/     # Plots for speedup and results
-└── Report.pdf          # Summary, hardware specs, observations
