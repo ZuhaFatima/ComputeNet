@@ -10,6 +10,7 @@ _ The server maintains a list of files (e.g., .pdf, .docx, .txt) available for d
 _ The client requests and downloads files from the server.
 
 _ Downloaded files are verified by opening them after the transfer.
+***
 
 **2. Scientific Computation Modules**
 Each computational module supports:
